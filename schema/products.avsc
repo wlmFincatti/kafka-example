@@ -1,0 +1,22 @@
+{
+    "type": "record",
+    "namespace": "br.com.wlmfincatti",
+    "name": "Product",
+    "fields": [
+      {
+        "name": "amount",
+        "type": "long",
+        "doc": "Amount product"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "doc": "Name of product"
+      },
+      {
+        "name": "price",
+        "type": "double",
+        "doc": "Price of product."
+      }
+    ]
+  }
